@@ -4,7 +4,6 @@ import UserServices from '../../Services/UserService';
 
 const userService = new UserServices();
 
-
 const ProtectedRoutes = ({children}) => {
     const navigate = useNavigate();
     const usuarioAutenticado = userService.usuarioAutenticado()
