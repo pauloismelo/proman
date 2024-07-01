@@ -1,0 +1,62 @@
+{
+  "projects": [
+    {
+      "id": "15af",
+      "name": "Meu Projeto alterado",
+      "budget": "8000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 500,
+      "services": [
+        {
+          "name": "Contratar dev",
+          "cost": "500",
+          "description": "teste",
+          "id": "eaacea5f-f9d9-48a8-ba57-dac01ad9c36c"
+        }
+      ]
+    },
+    {
+      "id": "f127",
+      "name": "Projeto de teste",
+      "budget": "90",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "589f",
+      "name": "Integracao sistema",
+      "budget": "5",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Infra"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "3",
+      "name": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Planejamento"
+    }
+  ]
+}

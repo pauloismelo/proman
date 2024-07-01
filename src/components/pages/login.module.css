@@ -1,0 +1,31 @@
+
+.login_all{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_container {
+    width: 450px;
+    border: 2px solid #0D214F;
+    border-radius: 10px;
+    padding: 2em;
+    top: 30%;
+    
+}
+.login_container h1{
+    color: #0D214F;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.login_container p{
+    margin-bottom: 1.5em;
+    color: #7b7b7b;
+}
+
+.login_container img {
+    width: 350px;
+    margin:  2em 0;
+}
