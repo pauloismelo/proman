@@ -6,6 +6,7 @@ import axios from 'axios'
 import styles from './login.module.css'
 import SubmitButton from '../form/SubmitButton';
 import UserService from '../../Services/UserService';
+import { Link } from 'react-router-dom';
 
 
 const userService = new UserService()
@@ -63,6 +64,10 @@ function Login() {
                 <Input type='password' text='Senha' name='password' placeholder='Insira sua senha' handleOnChange={handlechange} />
 
                 <SubmitButton text='Acessar'/>
+                <div>
+                    Não tem cadastro?
+                    <Link to="/cadastro">Clique aqui</Link>
+                </div>
                 </form>
             </div>
         </div>

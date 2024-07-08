@@ -19,7 +19,7 @@ function Navbar(){
     <nav className={styles.navbar}>
         <Container>
             <Link to="/">
-                <img src={logo} alt='Costs'/>
+                <img src={logo} alt='Costs' width='80px'/>
             </Link>
             {userlogged != null ? 
             <ul className={styles.list}>
